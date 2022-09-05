@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 80%;
+    max-height: 60%;
+    margin: auto;
+}
+
+#header-top {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+#headerLeft {
+    vertical-align: middle;
+    padding-top: 5%;
+}
+
+#headerRight{
+    padding-left: 0px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 3em;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+    width: 80%;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 100%;
+}
+
+.nav {
+    margin: 0 -10px;
+    padding: 0 10px;
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav > li > a {
+    padding: 14px 16px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 2ex;
+}
+
+::-webkit-scrollbar-corner {
+    background: white;
+}
+
+.widget {
+    display: inline-block;
+    height: 150px; /*sets height of element*/
+    width: 200px; /*sets height of element*/
+    background: white; /*sets the background of this element (here a solid colour)*/
+    transition: all 0.2s; /*sets a transition (for hover effect)*/
+    border-top: 100px;
+    vertical-align: middle;
+    /*line-height: 150px;*/
+    text-align: center;
+}
+
+.nav > li{
+    border-top: 100px;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget:hover {
+    background: rgb(241, 240, 239);
+}
+
+nav {
+    width: 100%;
+}
+
