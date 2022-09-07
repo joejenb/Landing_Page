@@ -6,6 +6,17 @@ body {
     margin: auto;
 }
 
+
+.dash {
+    list-style-type: none;
+}
+
+.dash li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+
 #header-top {
     display: grid;
     grid-template-columns: 15% 85%;
@@ -31,12 +42,12 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 h3 {
     font-size: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 #projects {
