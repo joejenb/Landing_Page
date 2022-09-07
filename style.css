@@ -12,6 +12,7 @@ body {
 }
 
 #headerLeft {
+    /*padding-left: -5%;*/
     vertical-align: middle;
     padding-top: 5%;
 }
@@ -38,11 +39,17 @@ h3 {
     padding-bottom: 1em;
 }
 
+#projects {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
 main { 
     display: grid;
     grid-template-columns: 30% 70%;
     margin-top: 3em;
 }
+
 header {
     text-align: center;
     margin: auto 2em;
@@ -81,6 +88,36 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 0 10px;
     max-width: 100%;
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+
+.hide {
+    display: None;
+}
+
+.chevron.right:before {
+	left: 2em;
+	transform: rotate(45deg);
+    top: 7em;
+}
+
+.chevron.left:before {
+	left: 2em;
+	transform: rotate(-135deg);
+    top: 7em;
 }
 
 .nav {
