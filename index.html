@@ -5,28 +5,23 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
         <script type="text/javascript" src="p5-Summative.js"></script>
-        <script type="text/javascript" src="index.js"></script>
+        <!--<script type="text/javascript" src="index.js"></script>-->
         <!--<script src="sketch.js"></script>-->
 	</head>
 
 	<body>
 		<header id="header">
             <div id="header-top">
-                <article id="headerLeft">
-                    <div id="bulls_eye"></div>
-                </article>
                 <article id="headerRight">
                 <!-- resume header with your name and title -->
                     <h1>JOSEPH JENNER-BAILEY</h1>
                 </article>
             </div>
-            <hr>
-            CURRICULUM VITAE
-            <hr>
-		</header>
-		<main>
-			<article id="mainLeft">
-				<section>
+        </header>
+        <div id="details">
+            <article id="detailsLeft">
+                <section>
+
 					<h2>CONTACT</h2>
 					<!-- contact info including social media -->
                     <p>
@@ -41,142 +36,120 @@
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                         <a href="https://www.linkedin.com/in/joseph-jenner-bailey/" target="_blank" rel="noopener noreferrer">Joseph Jenner-Bailey</a>
                     </p>
+                    <!--<p>
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a href="https://joejenb.github.io/Landing_Page/" target="_blank" rel="noopener noreferrer">Website </a>
+                    </p> -->
+
 				</section>
+            </article>
+            <article id="detailsRight">
 				<section>
 					<h2>SKILLS</h2>
 					<!-- your skills -->
-                    <p>HTML, CSS, GitHub, VS Code, GDB, C, Python, Javascript, PyTorch</p>
+                    <p> Python, PyTorch, Azure, Weights and Biases, OpenCV, GDB, GitHub, VS Code, C++, Vim </p>
 				</section>
+            </article>
+        </div>
+		<main>
+            <article id="mainRight">
 				<section>
-					<h2>EXTRA CURRICULAR ACTIVITIES</h2>
-                    <p >
-                         Won the 2019 British Universities and Colleges Sport Snooker Trophy tournament with the  
-                    Durham A team<br><br>
-                        Won the 2019/2020 Durham University Pool League whilst acting as captain, also finished top of the university individually<br><br>
-                        Regularly attend events held by the UCL Artificial Intelligence society to stay up to date with latest work<br><br>
-                        Play the guitar and make music with friends in my free time
-                    </p>
-				</section>            
-			</article>
-			<article id="mainRight">
-				<section>
-					<h2>EDUCATION</h2>
-                    <p><b>Computer Science (BSc)</b> | Durham University | September 2018 - June 2021 | 81%</p>
+					<h2><br>EDUCATION</h2>
+                    <p><br>Following the growth of my interest in Machine Learning throughout my undergraduate degree, I chose to study Cognitive and Decision Sciences. Introducing me to biological and psychological perspectives of the field.</p>
+                    <p><br><b>Cognitive and Decision </b> | University College London | September 2021 - September 2022 | 72% (Distinction) <b> <br>Sciences (MSc)</b></p>
+                    <p style="padding-left: 5%;">
+                        <ul class="dash">
+                            <li><b>Dissertation Title:</b> Preventing Shortcut Learning in Convolutional Neural Networks Through Enforced Representation Hierarchy</li>
+                            <li><b>Neural Computations:</b> 73%, &emsp; <b>Statistics:</b> 75%, &emsp; <b>Knowledge, Learning and Inference:</b> 67%</li>
+                        </ul>
+
+                    <p><b>Computer Science (BSc)</b> | Durham University | September 2018 - June 2021 | 81% (First Class)</p>
                     <p style="padding-left: 5%;">
                         <ul class="dash">
                             <li>Awarded L2 Outstanding Achievement</li>
-                            <li><b>Deep Learning and Reinforcement Learning:</b> 97%</li>
-                            <li><b>Computer Vision:</b> 86%</li>
+                            <li><b>Dissertation Title:</b> Use of Mixed Reality to Accurately Model Billiard Shots Given a Table State </li>
+                            <li><b>Deep Learning and Reinforcement Learning:</b> 97%, &emsp; <b>Computer Vision:</b> 86%, &emsp; <br><b>Mathematics for Engineers and Scientists:</b> 79%, &emsp; <b>Mathematics for Computer Science:</b> 91%, &emsp; <br><b>Computer Systems:</b> 82%</li>
                         </ul>
                     </p>
-                    <p><br><b>Cognitive and Decision Sciences (MSc)</b> | University College London | September 2021 - September 2022 | TBC</p>
+
+                    <p><b>Saffron Walden County High School </b>| September 2011 - June 2018 </p>
                     <p style="padding-left: 5%;">
                         <ul class="dash">
-                            <li><b>Average Awaiting Dissertation:</b> 70%</li>
-                            <li><b>Dissertation Title:</b> Preventing Shortcut Learning in Convolutional Neural Networks Through Enforced Representation Hierarchy</li>
+                            <li><b>A Levels:</b> &emsp; Mathematics: A*,&emsp;Further Mathematics: A, &emsp; Physics: B, &emsp; Computer Science: B</li>
+                            <li><b>AS Levels:</b>  &ensp;Mathematics: A, &emsp; Further Mathematics: A, &emsp; Physics: A, &emsp; Computer Science: A<br> &emsp; &emsp;&emsp;&emsp; &emsp; Product Design: A</li>
+                            <li><b>GCSE's:</b> &emsp;&ensp; (7A*, 4A), including Maths and English </li>
                         </ul>
-                </section>
+                    </p>
+
+                    </section>
 				<section>
 					<h2>WORK EXPERIENCE</h2>
-                    <p>
-                            <b>Arm Ltd.</b> | GPU SW Intership | June 2020 - September 2020
-                    </p>
-                    <p style="padding-left: 5%;">
-                        <ul class="dash">
-                        <li>Learnt how to use the graphics API Vulkan to build high performance applications that require 
-                        low overhead </li>
-                        <li>Gained valuable knowledge about how such an API can be built to optimise
-                        performance using layers and dispatch chains</li>
-                        <li>Contributed to the Vulkan WSI layer open-source project throughout my internship, requiring knowledge of how windowing systems work on Linux</li>
-                        <li>Gained experience working according to an Agile framework with daily stand-ups and using
-                        tools such as Jira and Kanban boards</li>
-                        <li>Became proficient with common tools such as Git and GDB, using them on a daily basic</li>
-                        </ul>
-                    </p>
-                    <p>
-                            <br><b>Arm Ltd.</b> | GPU SW Intership | June 2021 - September 2021
-                    </p>
-                    <p style="padding-left: 5%;">
-                        <ul class="dash">
-                            <li>Gained in depth knowledge of the Arm DDK and its underlying object model</li>
-                            <li>Responsible for restructuring elements of the pre-existing instrumentation pipeline to emit generic data that could be easily adapted for use in tools such as Scout, Perfetto and Boxer</li>
-                            <li>Successfully integrated Googles open-source trace visualisation tool Perfetto into Arm’s instrumentation pipeline</li>
-                        </ul>
-                    </p>
                     <p>
                             <br><b>Arm Ltd.</b> | Student Ambassador Role | October 2020 - Feburary 2022
                     </p>
                     <p style="padding-left: 5%;">
                         <ul class="dash">
                             <li>Completed courses on a range of topics including public speaking, intellectual property and privacy </li>
-                            <li>Partook in Q&A sessions for other undergraduate students looking to apply to work at Arm </li>
+                            <li>Participated in Q&A sessions for other undergraduate students looking to apply to work at Arm </li>
                         </ul>
                     </p>
-				</section>
-            </article>
-		</main>
-
-        <h2>PROJECTS</h2>
-        <div id="projects">
-            <article id="projectsLeft">
-                <span class="chevron left hide" id="left_chevron"></span>
-            </article>
-            <article id="projectsMiddle">
-                <nav class="navBar">
-                    <div class="container">
-                        <ul class="nav" id="project_scrollbar">
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Preventing_Shortcut_Learning_Code" target="_blank" rel="noopener noreferrer"><br><br><br>Preventing Shortcut Learning in CNN's</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Use_of_Mixed_Reality_to_Accurately_Model_Billiard_Shots_Given_a_Table_State" target="_blank" rel="noopener noreferrer"><br><br><br>Mixed Reality Pool</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Deep_Learning_and_Reinforcement_Learning" target="_blank" rel="noopener noreferrer"><br><br><br>Deep Learning and Reinforcement Learning</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Distributed_Systems_Just_Hungry" target="_blank" rel="noopener noreferrer"><br><br><br>Distributed Systems Just Hungry</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Durham-p5-lib" target="_blank" rel="noopener noreferrer"><br><br><br>Bulls-Eye Animation</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/AI_Search" target="_blank" rel="noopener noreferrer"><br><br><br>AI Search</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Machine_Learning_Open_University" target="_blank" rel="noopener noreferrer"><br><br><br>Machine Learning</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Game_Of_Life" target="_blank" rel="noopener noreferrer"><br><br><br>Game Of Life</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Virtual_and-Augmented_Reality" target="_blank" rel="noopener noreferrer"><br><br><br>Virtual and Augmented Reality</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Computer_Graphics" target="_blank" rel="noopener noreferrer"><br><br><br>Computer Graphics</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Compiler_Design" target="_blank" rel="noopener noreferrer"><br><br><br>Compiler Design</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Parallel_and_Scientific_Computing" target="_blank" rel="noopener noreferrer"><br><br><br>Parallel and Scientific Computing</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/TCRHub_Group_Project" target="_blank" rel="noopener noreferrer"><br><br><br>TCRHub Group Project</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Networks_and_Systems" target="_blank" rel="noopener noreferrer"><br><br><br>Networks and Systems</a>     
-                            </li>
-                            <li>
-                                <a class="widget" href="https://github.com/joejenb/Codes_and_Cryptography" target="_blank" rel="noopener noreferrer"><br><br><br>Codes and Cryptography</a>     
-                            </li>
+                    <p>
+                            <b>Arm Ltd.</b> | GPU Software Engineer Internship | June 2021 - September 2021
+                    </p>
+                    <p style="padding-left: 5%;">
+                        <ul class="dash">
+                            <li>Gained in depth knowledge of the Arm DDK and its underlying object model</li>
+                            <li>Responsible for restructuring elements of the pre-existing instrumentation pipeline to emit generic data that could be easily adapted for use in visualisation tools such as Scout, Perfetto and Boxer</li>
+                            <li>Successfully integrated Googles open-source trace visualisation tool Perfetto into Arm’s instrumentation pipeline</li>
+                            <li>Built on skills with Git, GDB, C++ and Python using them on a daily basis</li>
                         </ul>
-                    </div>
-                </nav>     
+                    </p>
+
+                    <p>
+                            <b>Arm Ltd.</b> | GPU Software Engineer Internship | June 2020 - September 2020
+                    </p>
+                    <p style="padding-left: 5%;">
+                        <ul class="dash">
+                        <li>Learnt how to use the graphics API Vulkan to build high performance applications that require 
+                        low overhead, contributing to the Vulkan WSI layer open-source project throughout my internship</li>
+                        <li>Gained valuable knowledge about how such an API can be built using layers and dispatch chains</li>
+                        <li>Worked according to an Agile framework with daily stand-ups and using
+                        tools such as Jira and Kanban boards</li>
+                        <li>Became proficient with Git, GDB and C++ using them on a daily basis</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <h2>CURRENT PROJECTS</h2>
+                    <p>
+                        <b>Face Generator</b> | November 2022 - Present
+                    </p>
+                    <ul class="dash">
+                        <li> A web based application to showcase and compare generative models I have recently learnt about and implemented</li>
+                        <li> Hosted on Azure using Azure Kubernetes Service with automated builds and deployments using Azure Pipelines</li>
+                    </ul>
+                    <p>
+                        <b>Hop-VAE</b> | November 2022 - Present
+                    </p>
+                    <ul class="dash">
+                        <li> Implementation of a VQ-VAE that uses continuous valued Hopfield networks to perform vector quantisation, facilitating backpropagation from the decoder to the encoder</li>
+                        <li> A transformer architecture (also implemented using continuous valued Hopfield networks) is used to further compress latent representations prior to quantisation</li>
+                    </ul>
+
+                </section>
+				<section ><!---</section>style="padding-top: 5%;">--->
+					<h2>EXTRA CURRICULAR ACTIVITIES</h2>
+                    <ul class="dash">
+                        <li> Won the 2019 British Universities and Colleges Sport Snooker Trophy tournament with the  
+                        Durham A team</li>
+                        <li>Won the 2019/2020 Durham University Pool League whilst acting as captain, also finished top of the university individually</li>
+                        <li>Regularly attend events held by the UCL Artificial Intelligence Society to stay up to date with latest work</li>
+                        <li>Play the guitar and make music with friends in my free time</li>
+                    </ul>
+                    </p>
+				</section>            
             </article>
-            <article id="projectsRight">
-                <span class="chevron right" id="right_chevron"></span>
-            </article>
-        </div>
+        </main>
+
     </body>
 </html>

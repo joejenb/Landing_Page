@@ -1,8 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
-    max-width: 80%;
-    max-height: 60%;
+    max-width: 90%;
+    max-height: 100%;
     margin: auto;
 }
 
@@ -19,30 +19,33 @@ body {
 
 #header-top {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 100%;
 }
 
 #headerLeft {
     /*padding-left: -5%;*/
     vertical-align: middle;
-    padding-top: 5%;
+    padding-top: 0%;
 }
 
 #headerRight{
+    text-align: left;
+    justify-content: left;
     padding-left: 0px;
-    width: 90%;
+    width: 100%;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: .6em;
     padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 h2 {
-    font-size: 1.5em;
-    padding-bottom: 0.5em;
+    font-size: 1.25em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    margin-top: 0em;
 }
 
 h3 {
@@ -57,9 +60,15 @@ h3 {
 
 main { 
     display: grid;
-    grid-template-columns: 30% 70%;
-    margin-top: 3em;
+    grid-template-columns: 100%;
 }
+
+#details { 
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 1em;
+}
+
 
 header {
     text-align: center;
@@ -67,7 +76,7 @@ header {
 }
 
 section {
-    margin: auto 1em 4em 2em;
+    margin: 0em 0em 0em 0em;
 }
 
 i {
